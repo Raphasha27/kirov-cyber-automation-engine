@@ -8,6 +8,10 @@ build/
 venv/
 *.env
 
+# Environment
+.env.local
+.env.production
+
 # IDE
 .vscode/
 .idea/
@@ -21,6 +25,12 @@ Thumbs.db
 # Execution logs
 *.log
 logs/
+
+# Dependencies
+node_modules/
+
+# Vercel
+.vercel
 
 # Docker
 docker-compose.override.yml
